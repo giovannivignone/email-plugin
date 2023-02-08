@@ -1,10 +1,11 @@
 {
   "name": "email-plugin",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "An opensource email pluging to execute email notification orders",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc -p tsconfig.json"
   },
   "keywords": [],
   "author": "Giovanni Vignone",
@@ -17,6 +18,7 @@
   },
   "dependencies": {
     "@aws-sdk/client-ses": "^3.264.0",
+    "@types/node": "*",
     "ts-jest": "^29.0.5"
   }
 }

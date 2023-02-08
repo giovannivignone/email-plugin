@@ -1,0 +1,1 @@
+import { init, send } from "./plugin";
