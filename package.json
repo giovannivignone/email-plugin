@@ -1,6 +1,6 @@
 {
   "name": "email-plugin",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "An opensource email pluging to execute email notification orders",
   "main": "lib/index.js",
   "scripts": {

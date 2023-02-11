@@ -1,2 +1,5 @@
 import { init, send } from "./plugin";
-export default { init, send };
+module.exports = {
+    init,
+    send
+};
